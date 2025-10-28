@@ -52,31 +52,58 @@
   </div>
 </div>
 
-<hr style="margin: 25px 0;">
+<div align="center" style="display: flex; justify-content: center; align-items: flex-start; gap: 15px; flex-wrap: wrap;">
 
-<div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
-  <img src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&theme=tokyonight&count_private=true&hide=issues" alt="Mustafa's GitHub stats" width="45%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=musss2003&layout=compact&theme=tokyonight" alt="Top Languages" width="45%">
+  <div style="max-width: 460px; border: 2px solid #1f1f1f; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+    <img src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&theme=tokyonight&count_private=true&hide=issues" 
+         alt="Mustafa's GitHub stats" style="width: 100%;">
+  </div>
+
+  <div style="max-width: 460px; border: 2px solid #1f1f1f; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=musss2003&layout=compact&theme=tokyonight" 
+         alt="Top Languages" style="width: 100%;">
+  </div>
+
 </div>
+
+
 
 <div align="center" style="max-width: 700px; margin: auto; text-align: center;">
   <h2 style="margin-bottom: 15px;">🧠 Featured Projects</h2>
-  <ul style="list-style: none; padding-left: 0; font-size: 1.05em; text-align: center;">
-    <li>🔹 <a href="https://github.com/musss2003/car-tracker-frontend" target="_blank" style="font-weight: bold; color: #61dafb;">Car Tracker App</a> – Manage rentals, customers, and finances</li>
-    <li>🔹 <a href="https://github.com/musss2003/chat-app-client" target="_blank" style="font-weight: bold; color: #61dafb;">Chat App</a> – Real-time messaging with Socket.IO</li>
-    <li>🔹 <a href="https://github.com/EmreArapcicUevak/EE418-Introduction-to-Machine-Learning-Project" target="_blank" style="font-weight: bold; color: #61dafb;">Scrapy & ML Project</a> – Collect and analyze flat listings</li>
-    <li>🔹 <a href="https://github.com/musss2003/house-price-app" target="_blank" style="font-weight: bold; color: #61dafb;">House Price Prediction</a> – Regression on California Housing Prices</li>
-  </ul>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🔹 <a href="https://github.com/musss2003/car-tracker-frontend" target="_blank" style="font-weight: bold; color: #61dafb;">Car Tracker App</a> – Manage rentals, customers, and finances
+  </div>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🔹 <a href="https://github.com/musss2003/chat-app-client" target="_blank" style="font-weight: bold; color: #61dafb;">Chat App</a> – Real-time messaging with Socket.IO
+  </div>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🔹 <a href="https://github.com/EmreArapcicUevak/EE418-Introduction-to-Machine-Learning-Project" target="_blank" style="font-weight: bold; color: #61dafb;">Scrapy & ML Project</a> – Collect and analyze flat listings
+  </div>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🔹 <a href="https://github.com/musss2003/house-price-app" target="_blank" style="font-weight: bold; color: #61dafb;">House Price Prediction</a> – Regression on California Housing Prices
+  </div>
 </div>
 
-<div align="center" style="max-width: 700px; margin: auto; text-align: center;">
+<div align="center" style="max-width: 700px; margin: auto; text-align: center; margin-top: 25px;">
   <h2>🏆 Achievements</h2>
-  <ul style="list-style: none; padding-left: 0; font-size: 1.05em; text-align: center;">
-    <li>🎓 BSc Software Engineering @ IUS</li>
-    <li>🌍 Contributed to open-source projects</li>
-    <li>🧩 Built several production-ready MERN apps</li>
-  </ul>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🎓 BSc Software Engineering @ IUS
+  </div>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🌍 Contributed to open-source projects
+  </div>
+
+  <div style="margin: 5px 0; font-size: 1.05em;">
+    🧩 Built several production-ready MERN apps
+  </div>
 </div>
+
 
 
 <div align="center" style="max-width: 700px; margin: auto;">
