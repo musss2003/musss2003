@@ -52,14 +52,14 @@
   </div>
 </div>
 
-<div align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 15px; flex-wrap: wrap;">
+<div align="center" style="display: flex; justify-content: center; align-items: flex-start; gap: 15px; flex-wrap: wrap;">
 
-  <div style="max-width: 460px; border: 2px solid #1f1f1f; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+  <div style="flex: 1 1 300px; max-width: 460px; border: 2px solid #1f1f1f; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
     <img src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&theme=tokyonight&count_private=true&hide=issues" 
          alt="Mustafa's GitHub stats" style="width: 100%;">
   </div>
 
-  <div style="max-width: 460px; border: 2px solid #1f1f1f; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+  <div style="flex: 1 1 300px; max-width: 460px; border: 2px solid #1f1f1f; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=musss2003&layout=compact&theme=tokyonight" 
          alt="Top Languages" style="width: 100%;">
   </div>
