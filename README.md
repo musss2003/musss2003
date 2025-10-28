@@ -1,16 +1,85 @@
-## Hi there 👋
+<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6;">
 
-<!--
-**musss2003/musss2003** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <h1 style="font-size: 2.2em; margin-bottom: 10px;">👋 Hi, I'm Mustafa Sinanović</h1>
 
-Here are some ideas to get you started:
+  <p style="font-size: 1.1em; max-width: 700px; margin: 5px auto;">
+    🚀 I'm a <strong>Full-Stack Developer</strong> passionate about building real-time applications, data-driven systems, and user-friendly UIs.
+  </p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
+    💡 Currently working on: <strong>Car Rental Tracker (MERN Stack)</strong> & <strong>ML Project</strong>
+  </p>
+
+  <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
+    🌱 Learning: <strong>Web Scraping (Scrapy)</strong> & <strong>Machine Learning</strong>
+  </p>
+
+  <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
+    🌍 Spoken Languages: <strong>Bosnian 🇧🇦</strong> | <strong>English 🇬🇧</strong> | <strong>Arabic 🇸🇦</strong>
+  </p>
+
+  <p style="font-size: 1.05em; margin-top: 10px;">
+    📫 Reach me at: 
+    <a href="https://www.linkedin.com/in/mustafa-sinanovic-60979b255/" target="_blank" style="text-decoration: none; color: #0A66C2; font-weight: bold;">LinkedIn</a>
+  </p>
+
+</div>
+
+<div align="center">
+  
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 10px;">
+    <!-- Frontend -->
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+    <img src="https://img.shields.io/badge/ShadcnUI-4ade80?style=for-the-badge" alt="ShadcnUI">
+    <!-- Backend -->
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+    <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot">
+    <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO">
+    <!-- Tools -->
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+    <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode">
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
+  </div>
+</div>
+
+<hr style="margin: 25px 0;">
+
+<div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&theme=tokyonight&count_private=true&hide=issues" alt="Mustafa's GitHub stats" width="45%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=musss2003&layout=compact&theme=tokyonight" alt="Top Languages" width="45%">
+</div>
+
+<div align="center" style="max-width: 700px; margin: auto; text-align: center;">
+  <h2 style="margin-bottom: 15px;">🧠 Featured Projects</h2>
+  <ul style="list-style: none; padding-left: 0; font-size: 1.05em; text-align: center;">
+    <li>🔹 <a href="https://github.com/musss2003/car-tracker-frontend" target="_blank" style="font-weight: bold; color: #61dafb;">Car Tracker App</a> – Manage rentals, customers, and finances</li>
+    <li>🔹 <a href="https://github.com/musss2003/chat-app-client" target="_blank" style="font-weight: bold; color: #61dafb;">Chat App</a> – Real-time messaging with Socket.IO</li>
+    <li>🔹 <a href="https://github.com/EmreArapcicUevak/EE418-Introduction-to-Machine-Learning-Project" target="_blank" style="font-weight: bold; color: #61dafb;">Scrapy & ML Project</a> – Collect and analyze flat listings</li>
+    <li>🔹 <a href="https://github.com/musss2003/house-price-app" target="_blank" style="font-weight: bold; color: #61dafb;">House Price Prediction</a> – Regression on California Housing Prices</li>
+  </ul>
+</div>
+
+<div align="center" style="max-width: 700px; margin: auto; text-align: center;">
+  <h2>🏆 Achievements</h2>
+  <ul style="list-style: none; padding-left: 0; font-size: 1.05em; text-align: center;">
+    <li>🎓 BSc Software Engineering @ IUS</li>
+    <li>🌍 Contributed to open-source projects</li>
+    <li>🧩 Built several production-ready MERN apps</li>
+  </ul>
+</div>
+
+
+<div align="center" style="max-width: 700px; margin: auto;">
+  <h2>⚡ Fun Fact</h2>
+  <p style="font-size: 1.1em;">⭐ I love learning how technology intersects with philosophy and spirituality.</p>
+</div>
