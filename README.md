@@ -7,7 +7,7 @@
   </p>
 
   <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
-    💡 Currently working on: <strong>Car Rental Tracker (MERN Stack)</strong> & <strong>ML Project</strong>
+    💡 Currently working on: <strong>Car Rental Tracker (MERN Stack)</strong> & <strong>ML (Regression and ASR)</strong>
   </p>
 
   <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
