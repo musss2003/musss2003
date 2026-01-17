@@ -1,29 +1,35 @@
-<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6;">
+<div align="center">
 
-  <h1 style="font-size: 2.2em; margin-bottom: 10px;">👋 Hi, I'm Mustafa Sinanović</h1>
+# 👋 Mustafa Sinanović
 
-  <p style="font-size: 1.1em; max-width: 700px; margin: 5px auto;">
-    🚀 I'm a <strong>Full-Stack Developer</strong> passionate about building real-time applications, data-driven systems, and user-friendly UIs.
-  </p>
+### Full-Stack Developer | MERN Specialist | ML Enthusiast
 
-  <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
-    💡 Currently working on: <strong>Car Rental Tracker (MERN Stack)</strong> & <strong>ML (Regression and ASR)</strong>
-  </p>
+*Building scalable web applications and exploring the intersection of software & intelligence*
 
-  <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
-    🌱 Learning: <strong>Web Scraping (Scrapy)</strong> & <strong>Machine Learning</strong>
-  </p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mustafa-sinanovic-60979b255/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=flat&logo=google-chrome&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:your.email@example.com)
 
-  <p style="font-size: 1.05em; max-width: 700px; margin: 5px auto;">
-    🌍 Spoken Languages: <strong>Bosnian 🇧🇦</strong> | <strong>English 🇬🇧</strong> | <strong>Arabic 🇸🇦</strong>
-  </p>
-
-  <p style="font-size: 1.05em; margin-top: 10px;">
-    📫 Reach me at: 
-    <a href="https://www.linkedin.com/in/mustafa-sinanovic-60979b255/" target="_blank" style="text-decoration: none; color: #0A66C2; font-weight: bold;">LinkedIn</a>
-  </p>
+🌍 **Sarajevo, Bosnia & Herzegovina** | 🕐 **UTC+1** | 💼 **Open to Remote Opportunities**
 
 </div>
+
+---
+
+## 🚀 About Me
+
+I'm a software engineer passionate about creating **real-time applications**, **data-driven systems**, and **intuitive user experiences**. With a strong foundation in the MERN stack and growing expertise in machine learning, I bridge the gap between traditional web development and intelligent systems.
+
+**Currently:**
+- 🔨 Building a full-featured **Car Rental Management System** (MERN Stack)
+- 🤖 Exploring **Machine Learning** (Regression, ASR) and **Web Scraping** (Scrapy)
+- 📚 BSc in Software Engineering @ International University of Sarajevo
+
+**Languages:** 🇧🇦 Bosnian (Native) | 🇬🇧 English (Fluent) | 🇸🇦 Arabic (Conversational)
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
   
@@ -52,58 +58,103 @@
   </div>
 </div>
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td style="border: none; padding: 0;">
-      <img src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&theme=tokyonight&count_private=true&hide=issues" 
-           alt="Mustafa's GitHub stats" width="400px"/>
-    </td>
-    <td style="border: none; padding: 0;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=musss2003&layout=compact&theme=tokyonight" 
-           alt="Top Languages" width="400px"/>
-    </td>
-  </tr>
-</table>
+---
 
-<div align="center" style="max-width: 700px; margin: auto; text-align: center;">
-  <h2 style="margin-bottom: 15px;">🧠 Featured Projects</h2>
+## 📊 GitHub Activity
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🔹 <a href="https://github.com/musss2003/car-tracker-frontend" target="_blank" style="font-weight: bold; color: #61dafb;">Car Tracker App</a> – Manage rentals, customers, and finances
-  </div>
+<div align="center">
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🔹 <a href="https://github.com/musss2003/chat-app-client" target="_blank" style="font-weight: bold; color: #61dafb;">Chat App</a> – Real-time messaging with Socket.IO
-  </div>
+<!-- GitHub Streak Stats -->
+<img src="https://streak-stats.demolab.com/?user=musss2003&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="49%" />
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🔹 <a href="https://github.com/EmreArapcicUevak/EE418-Introduction-to-Machine-Learning-Project" target="_blank" style="font-weight: bold; color: #61dafb;">Scrapy & ML Project</a> – Collect and analyze flat listings
-  </div>
+<!-- GitHub Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=musss2003&theme=tokyo-night&hide_border=false&area=true" alt="GitHub Activity Graph" width="100%" />
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🔹 <a href="https://github.com/musss2003/house-price-app" target="_blank" style="font-weight: bold; color: #61dafb;">House Price Prediction</a> – Regression on California Housing Prices
-  </div>
+<!-- GitHub Profile Summary Cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=musss2003&theme=tokyonight" alt="Profile Summary" width="100%" />
+
+<!-- Productive Time and Most Used Languages Side by Side -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=musss2003&theme=tokyonight&utcOffset=1" alt="Productive Time" width="49%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=musss2003&theme=tokyonight" alt="Most Used Languages" width="49%" />
+
 </div>
 
-<div align="center" style="max-width: 700px; margin: auto; text-align: center; margin-top: 25px;">
-  <h2>🏆 Achievements</h2>
+---
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🎓 BSc Software Engineering @ IUS
-  </div>
+## 💼 Featured Projects
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🌍 Contributed to open-source projects
-  </div>
+### 🚗 [Car Rental Tracker](https://github.com/musss2003/car-tracker-frontend)
+**Full-stack rental management system with real-time updates**
 
-  <div style="margin: 5px 0; font-size: 1.05em;">
-    🧩 Built several production-ready MERN apps
-  </div>
-</div>
+- 📊 Track rentals, customers, payments, and vehicle maintenance
+- 💰 Financial reporting and analytics dashboard
+- 🔐 Role-based authentication and authorization
+- 🎨 Modern UI with React, TailwindCSS, and ShadcnUI
+- ⚡ RESTful API with Express and MongoDB
 
+**Tech:** React · TypeScript · Node.js · Express · MongoDB · TailwindCSS
 
+---
 
-<div align="center" style="max-width: 700px; margin: auto;">
-  <h2>⚡ Fun Fact</h2>
-  <p style="font-size: 1.1em;">⭐ I love learning how technology intersects with philosophy and spirituality.</p>
+### 💬 [Real-Time Chat Application](https://github.com/musss2003/chat-app-client)
+**Instant messaging platform with WebSocket communication**
+
+- 🔄 Real-time bidirectional communication using Socket.IO
+- 👥 User authentication and session management
+- 📱 Responsive design for mobile and desktop
+- 🎯 Clean architecture with separation of concerns
+
+**Tech:** React · Node.js · Socket.IO · Express · MongoDB
+
+---
+
+### 🏠 [House Price Prediction Model](https://github.com/musss2003/house-price-app)
+**Machine learning regression model for California housing data**
+
+- 📈 Linear and polynomial regression analysis
+- 🔍 Feature engineering and data preprocessing
+- 📊 Model evaluation with R² and RMSE metrics
+- 🎨 Interactive prediction interface
+
+**Tech:** Python · Scikit-learn · Pandas · NumPy · Flask
+
+---
+
+## 🎯 What I'm Looking For
+
+I'm actively seeking **remote full-stack developer opportunities** where I can:
+
+✅ Build scalable, production-ready applications  
+✅ Work with modern JavaScript/TypeScript ecosystems  
+✅ Contribute to meaningful products that solve real problems  
+✅ Collaborate with distributed teams across time zones  
+✅ Continue learning and implementing ML/AI solutions  
+
+**Ideal Role:** Full-Stack Developer | Frontend Developer | Backend Developer | Software Engineer
+
+---
+
+## 🏆 Highlights
+
+- 🎓 **BSc in Software Engineering** from International University of Sarajevo
+- 🌍 **Multilingual**: Fluent in Bosnian, English, and conversational Arabic
+- 🧩 Built **production-ready MERN applications** from concept to deployment
+- 🤝 **Open-source contributor** with focus on web technologies
+- ⚡ Passionate about the **intersection of technology, philosophy, and spirituality**
+
+---
+
+## 📫 Let's Connect
+
+I'm always interested in discussing new opportunities, collaborating on projects, or just talking tech!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mustafa_Sinanović-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mustafa-sinanovic-60979b255/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-musss2003-181717?style=for-the-badge&logo=github)](https://github.com/musss2003)
+
+**💡 Open to remote opportunities worldwide**
+
 </div>
