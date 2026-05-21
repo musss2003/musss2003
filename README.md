@@ -60,7 +60,15 @@ I am a professional **Frontend Developer** specializing in building highly modul
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/musss2003/musss2003/main/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/musss2003/musss2003/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/github/followers/musss2003?label=Followers&style=for-the-badge&color=3178C6&logo=github" alt="Followers">
+  <img src="https://img.shields.io/github/stars/musss2003?label=Total%20Stars&style=for-the-badge&color=38B2AC&logo=github" alt="Stars">
+  <img src="https://img.shields.io/github/commit-activity/y/musss2003?label=Commits%20This%20Year&style=for-the-badge&color=DD0031&logo=git" alt="Commits">
 </div>
 
 ---
