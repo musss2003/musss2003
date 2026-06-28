@@ -1,13 +1,5 @@
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=musss2003&hide_border=true" />
-
-</div>
-
-<hr>
-
-<div align="center">
-
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -27,17 +19,6 @@
 
 </div>
 
-<hr>
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=musss2003&layout=compact&hide_border=true&langs_count=8" />
-
-</div>
-
-<hr>
 
 <div align="center">
 
