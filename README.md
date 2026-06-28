@@ -1,15 +1,12 @@
-
 <div align="center">
 
-# Mustafa Sinanović
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mustafa-sinanovic-60979b255/)
-[![GitHub](https://img.shields.io/badge/GitHub-musss2003-181717?style=flat&logo=github)](https://github.com/musss2003)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:mustafasinanovic2003@gmail.com)
+<img src="https://streak-stats.demolab.com?user=musss2003&hide_border=true" />
 
 </div>
 
-## Tech Stack
+<hr>
+
+<div align="center">
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -28,7 +25,9 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 
-## GitHub Stats
+</div>
+
+<hr>
 
 <div align="center">
 
@@ -38,9 +37,12 @@
 
 </div>
 
+<hr>
+
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=musss2003&hide_border=true" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mustafa-sinanovic-60979b255/)
+[![GitHub](https://img.shields.io/badge/GitHub-musss2003-181717?style=flat&logo=github)](https://github.com/musss2003)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:mustafasinanovic2003@gmail.com)
 
 </div>
-
