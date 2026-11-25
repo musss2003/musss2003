@@ -1,20 +1,51 @@
-<div align="center">
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,100:1d4ceb&text=Mustafa%20Sinanovic&fontColor=ffffff&fontSize=44&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Sarajevo&descAlignY=58&descSize=16" width="100%" alt="Mustafa Sinanovic, Full-Stack Developer, Sarajevo" />
+</p>
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=900&color=1D4CEB&center=true&vCenter=true&width=520&lines=Angular+%26+React+frontends+used+by+real+people;Node.js+%2B+AWS+serverless+backends;Real-time+apps%2C+scraping+%26+ML+on+the+side" alt="Typing intro" />
+</p>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=musss2003&style=flat-square&color=1d4ceb&label=Profile+views" alt="Profile views" />
+</p>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+---
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+### 👋 About me
 
-</div>
+- 💼 Full-stack developer building a **sports & social platform**: web app, admin and partner consoles (Angular, SSR, AWS AppSync)
+- ⚡ I like real-time features, fast UIs and clean, typed code
+- 🧪 On the side: price prediction with ML, web scraping and IoT tinkering
+- 📍 Sarajevo, Bosnia and Herzegovina
+
+### 🛠️ Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=angular,react,ts,js,tailwind,vite,nodejs,express,postgres,mongodb,python,aws,docker,git,vitest&perline=8" alt="Tech stack" />
+</p>
+
+### 🚀 Featured projects
+
+<p align="center">
+  <a href="https://github.com/musss2003/techstars"><img src="https://github-readme-stats.vercel.app/api/pin/?username=musss2003&repo=techstars&theme=transparent&hide_border=true&title_color=1d4ceb&icon_color=1d4ceb&text_color=8b949e" /></a>
+  <a href="https://github.com/musss2003/price-predictor-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=musss2003&repo=price-predictor-app&theme=transparent&hide_border=true&title_color=1d4ceb&icon_color=1d4ceb&text_color=8b949e" /></a>
+  <a href="https://github.com/musss2003/chat-app-client"><img src="https://github-readme-stats.vercel.app/api/pin/?username=musss2003&repo=chat-app-client&theme=transparent&hide_border=true&title_color=1d4ceb&icon_color=1d4ceb&text_color=8b949e" /></a>
+  <a href="https://github.com/musss2003/iot-smart-light"><img src="https://github-readme-stats.vercel.app/api/pin/?username=musss2003&repo=iot-smart-light&theme=transparent&hide_border=true&title_color=1d4ceb&icon_color=1d4ceb&text_color=8b949e" /></a>
+</p>
+
+### 📊 GitHub activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=musss2003&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true&title_color=1d4ceb&icon_color=1d4ceb&text_color=8b949e" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=musss2003&theme=transparent&hide_border=true&ring=1d4ceb&fire=1d4ceb&currStreakLabel=1d4ceb&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=musss2003&bg_color=00000000&color=8b949e&line=1d4ceb&point=ffffff&area=true&area_color=1d4ceb&hide_border=true" width="100%" alt="Contribution graph" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:0f172a,100:1d4ceb" width="100%" alt="" />
+</p>
