@@ -1,11 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="46" viewBox="0 0 860 46" role="img" aria-label="Tools"><title>Tools</title><style>
-.in{animation:in .8s cubic-bezier(.2,.7,.2,1) both}
-.grow{transform-box:fill-box;transform-origin:bottom;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
-.draw{stroke-dasharray:2000;stroke-dashoffset:2000;animation:draw 1.6s ease-out .2s forwards}
+.in{opacity:0;animation:in .8s cubic-bezier(.2,.7,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,1.5,.4,1) forwards}
+.bar{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:bar .9s cubic-bezier(.2,1.2,.3,1) forwards}
+.drop{opacity:0;animation:drop .7s cubic-bezier(.2,1.4,.4,1) forwards}
+.fade{opacity:0;animation:fade .8s ease forwards}
+.flick{transform-box:fill-box;transform-origin:bottom;animation:flick 1.2s ease-in-out infinite alternate}
 @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
-@keyframes draw{to{stroke-dashoffset:0}}
-@media (prefers-reduced-motion:reduce){.in,.grow{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+@keyframes pop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:none}}
+@keyframes bar{to{transform:scaleY(1)}}
+@keyframes drop{from{opacity:0;transform:translateY(-26px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes flick{0%{transform:scale(1,1) rotate(-3deg)}50%{transform:scale(.92,1.08) rotate(2deg)}100%{transform:scale(1.04,.94) rotate(-1deg)}}
+@media (prefers-reduced-motion:reduce){.in,.pop,.bar,.drop,.fade,.flick{animation:none;opacity:1;transform:none}}
 </style>
 
 <text x="4" y="32" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="20" font-weight="800" fill="#eef2f8" text-anchor="start" letter-spacing="-0.4">Tools</text></svg>
