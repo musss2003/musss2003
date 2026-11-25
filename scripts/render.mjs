@@ -116,32 +116,65 @@ function icon(t, key, x, y, size) {
 }
 
 // ---- hero: name over a skyline of my real weekly commits ----
+function letters(word, x, y, size, fill, delay0) {
+    // Real kerning (one <text>), each letter fading in on its own, the word dropping into place.
+    const spans = [...word].map((ch, i) => `<tspan fill-opacity="0">${esc(ch)}<animate attributeName="fill-opacity" from="0" to="1" begin="${(delay0 + i * 0.07).toFixed(2)}s" dur=".35s" fill="freeze"/></tspan>`).join('');
+    return `<text class="drop" style="animation-delay:${delay0}s" x="${x}" y="${y}" ${SANS} font-size="${size}" font-weight="800" letter-spacing="-1.8" fill="${fill}">${spans}</text>`;
+}
 function hero(t) {
-    const h = 300;
+    const h = 320;
     const weeks = [];
     for (let i = days.length - 7 * 52; i < days.length; i += 7) weeks.push(days.slice(i, i + 7).reduce((s, d) => s + d.count, 0));
     const max = Math.max(1, ...weeks);
     const bw = W / weeks.length;
-    const bars = weeks.map((v, i) => {
-        const bh = Math.max(2, (v / max) * 64);
-        const last = i === weeks.length - 1;
-        return `<rect class="grow" style="animation-delay:${i * 12}ms" x="${(i * bw + 1).toFixed(1)}" y="${(h - bh).toFixed(1)}" width="${(bw - 2).toFixed(1)}" height="${bh.toFixed(1)}" rx="1.5" fill="${last ? t.green : 'url(#sky)'}"/>`;
+    const barRects = (fill, cls) => weeks.map((v, i) => {
+        const bh = Math.max(3, (v / max) * 78);
+        return `<rect${cls ? ` class="${cls}" style="animation-delay:${(0.6 + i * 0.018).toFixed(3)}s"` : ''} x="${(i * bw + 1.2).toFixed(1)}" y="${(h - bh).toFixed(1)}" width="${(bw - 2.4).toFixed(1)}" height="${bh.toFixed(1)}" rx="2" fill="${fill}"/>`;
     }).join('');
-    const thisWeek = weeks.at(-1);
+    const lastX = Math.min(W - 20, (weeks.length - 1) * bw + bw / 2), lastY = h - Math.max(3, (weeks.at(-1) / max) * 78);
+    const tagline = 'I build web apps that feel instant, and ship them every day.';
+    const tagW = tagline.length * 6.95 + 4;
     return doc(t, W, h, `Mustafa Sinanović, full-stack developer in Sarajevo. ${fmt(total)} commits in the last year.`, `
-<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.accent}" stop-opacity=".55"/><stop offset="1" stop-color="${t.accent}" stop-opacity=".08"/></linearGradient>
-<clipPath id="c"><rect x="1" y="1" width="${W - 2}" height="${h - 2}" rx="17"/></clipPath></defs>
-<g clip-path="url(#c)">${bars}</g>
-<g class="in">
-${T(44, 64, 'SARAJEVO  ·  FULL-STACK DEVELOPER', { size: 12, weight: 600, fill: t.muted, ls: 2.4 })}
-${T(42, 122, 'Mustafa', { size: 54, weight: 800, fill: t.text, ls: -1.5 })}
-${T(42, 178, 'Sinanović', { size: 54, weight: 800, fill: t.accent, ls: -1.5 })}
-${T(44, 212, 'I build web apps that feel instant, and ship them every day.', { size: 16, fill: t.muted })}
+<style>
+.drop{opacity:0;animation:drop .7s cubic-bezier(.2,1.4,.4,1) forwards}
+@keyframes drop{from{opacity:0;transform:translateY(-26px)}to{opacity:1;transform:none}}
+.bar{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:bar .9s cubic-bezier(.2,1.2,.3,1) forwards}
+@keyframes bar{to{transform:scaleY(1)}}
+.fade{opacity:0;animation:fade .8s ease forwards}
+@keyframes fade{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.drop,.bar,.fade{animation:none;opacity:1;transform:none}}
+</style>
+<defs>
+<clipPath id="c"><rect x="1" y="1" width="${W - 2}" height="${h - 2}" rx="17"/></clipPath>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.accent}" stop-opacity=".7"/><stop offset="1" stop-color="${t.accent}" stop-opacity=".12"/></linearGradient>
+<linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="reflect">
+  <stop offset="0" stop-color="${t.accent}"/><stop offset=".5" stop-color="${t.green}"/><stop offset="1" stop-color="${t.accent}"/>
+  <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="840 0" dur="6s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="bars">${barRects('#fff')}</mask>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="${t.faint}" opacity=".35"/></pattern>
+<clipPath id="type"><rect x="40" y="214" width="0" height="30"><animate attributeName="width" from="0" to="${tagW}" begin="1.4s" dur="2.6s" fill="freeze" calcMode="discrete" values="${Array.from({ length: 31 }, (_, i) => ((tagW * i) / 30).toFixed(0)).join(';')}"/></rect></clipPath>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="${W}" height="${h}" fill="url(#dots)"/>
+  <circle r="150" fill="${t.accent}" opacity=".32" filter="url(#blur)"><animate attributeName="cx" values="640;760;600;640" dur="14s" repeatCount="indefinite"/><animate attributeName="cy" values="60;140;90;60" dur="11s" repeatCount="indefinite"/></circle>
+  <circle r="120" fill="${t.green}" opacity=".18" filter="url(#blur)"><animate attributeName="cx" values="120;260;60;120" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="300;220;280;300" dur="12s" repeatCount="indefinite"/></circle>
+  ${barRects('url(#sky)', 'bar')}
+  <g mask="url(#bars)" class="fade" style="animation-delay:2.4s"><rect x="-260" y="${h - 80}" width="220" height="80" fill="url(#sweep)" opacity=".55"><animate attributeName="x" from="-260" to="${W + 40}" dur="3.2s" begin="2.4s" repeatCount="indefinite"/></rect></g>
+  <circle cx="${lastX}" cy="${lastY - 8}" r="4" fill="${t.green}" class="fade" style="animation-delay:1.8s"/>
+  <circle cx="${lastX}" cy="${lastY - 8}" r="4" fill="none" stroke="${t.green}" stroke-width="2"><animate attributeName="r" values="4;16" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="1.8s" repeatCount="indefinite"/></circle>
 </g>
-<g class="in" style="animation-delay:.5s">
-<rect x="${W - 222}" y="40" width="182" height="30" rx="15" fill="${t.bg}" fill-opacity=".85" stroke="${t.line}"/>
-<circle cx="${W - 204}" cy="55" r="4.5" fill="${t.green}"><animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
-${T(W - 192, 59.5, `${fmt(thisWeek)} commits this week`, { size: 11.5, weight: 600, fill: t.text })}
+<text class="fade" x="44" y="62" ${SANS} font-size="12" font-weight="600" fill="${t.muted}" letter-spacing="2.4">SARAJEVO  ·  FULL-STACK DEVELOPER</text>
+${letters('Mustafa', 42, 124, 58, t.text, 0.15)}
+${letters('Sinanović', 42, 184, 58, 'url(#name)', 0.55)}
+<g clip-path="url(#type)"><text x="44" y="236" ${SANS} font-size="16" fill="${t.muted}">${esc(tagline)}</text></g>
+<rect x="44" y="222" width="2" height="18" fill="${t.accent}"><animate attributeName="x" begin="1.4s" dur="2.6s" fill="freeze" calcMode="discrete" values="${Array.from({ length: 31 }, (_, i) => (44 + (tagW * i) / 30 + 2).toFixed(0)).join(';')}"/><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<g class="fade" style="animation-delay:1s">
+<rect x="${W - 222}" y="40" width="182" height="30" rx="15" fill="${t.bg}" fill-opacity=".8" stroke="${t.line}"/>
+<circle cx="${W - 204}" cy="55" r="4.5" fill="${t.green}"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+${T(W - 192, 59.5, `${fmt(weeks.at(-1))} commits this week`, { size: 11.5, weight: 600, fill: t.text })}
 </g>`);
 }
 
@@ -150,11 +183,11 @@ const CORE = ['angular', 'typescript', 'node', 'aws', 'graphql', 'sass'];
 const MORE = ['react', 'rxjs', 'tailwind', 'vite', 'express', 'python', 'dynamodb', 'postgres', 'mongodb', 'docker', 'vitest', 'sentry', 'git'];
 const SHORT = { typescript: 'TypeScript', node: 'Node.js', aws: 'AWS', sass: 'SCSS', graphql: 'GraphQL', angular: 'Angular' };
 function stack(t) {
-    const gap = 14, tw = (W - 64 - gap * (CORE.length - 1)) / CORE.length, th = 112;
+    const gap = 14, tw = (W - 64 - gap * (CORE.length - 1)) / CORE.length, th = 104;
     const core = CORE.map((k, i) => {
         const x = 32 + i * (tw + gap), y = 64;
         return `<g class="in" style="animation-delay:${i * 60}ms"><rect x="${x}" y="${y}" width="${tw}" height="${th}" rx="14" fill="${t.bg}" stroke="${t.line}"/>
-${icon(t, k, x + tw / 2 - 20, y + 22, 40)}${T(x + tw / 2, y + 92, SHORT[k] || ICONS[k].title, { size: 13, weight: 600, fill: t.text, anchor: 'middle' })}</g>`;
+<title>${esc(SHORT[k] || ICONS[k].title)}</title>${icon(t, k, x + tw / 2 - 26, y + th / 2 - 26, 52)}</g>`;
     }).join('');
     const sz = 26, step = (W - 64 - sz) / (MORE.length - 1);
     const more = MORE.map((k, i) => `<g class="in" style="animation-delay:${400 + i * 40}ms"><title>${esc(ICONS[k]?.title || k)}</title>${icon(t, k, 32 + i * step, 232, sz)}</g>`).join('');
